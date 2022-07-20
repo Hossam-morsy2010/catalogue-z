@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--font awesome-->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!--bootstrap-->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <!--main style sheet-->
+    <link rel="stylesheet" href="css/main.css" />
+    <title>catalogue-z</title>
+  </head>
+  <body>
+    <!--start the nav bar-->
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand fs-2 brand" href="#"
+          ><i class="brand fa-solid fa-film fs-2 me-2"></i>catalog-Z</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav main_nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active first_nav text-capitalize fs-5 me-3"
+                aria-current="page"
+                href="#"
+                >photos</a
+              >
+            </li>
+            <li class="nav-item sec_nav">
+              <a class="nav-link text-capitalize fs-5 me-3" href="#">videos</a>
+            </li>
+            <li class="nav-item third_nav">
+              <a class="nav-link text-capitalize fs-5 me-3" href="#">about</a>
+            </li>
+            <li class="nav-item fourth_nav">
+              <a class="nav-link text-capitalize fs-5" href="#">contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--end the nav bar-->
+    <!--start the search section-->
+    <section class="container-fluid search_sec">
+      <main class="row">
+        <div class="col-sm-4 mx-auto mt-5">
+          <div class="input-group mb-3 mt-5">
+            <input
+              type="text"
+              class="form-control py-3 rounded-0 forma"
+              placeholder="Search"
+              aria-label="Recipient's username"
+              aria-describedby="button-addon2"
+            />
+            <button
+              class="btn btn-outline-secondary rounded-0 forma_button text-white px-5"
+              type="button"
+              id="button-addon2"
+            >
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </div>
+        </div>
+      </main>
+    </section>
+    <!--end the search section-->
+    <!--start the body section-->
+    <section class="container-fluid">
+      <main class="row mt-5">
+        <div class="col-xs-6 col-md-2">
+          <h2 class="text-capitalize mt-4 ms-2 text-center me-auto latest">
+            latest photos
+          </h2>
+        </div>
+        <div class="col-xs-6 offset-xs-0 col-md-2 offset-md-8">
+          <p class="meter mt-4 text-center ms-2">
+            Page<input
+              type="number"
+              class="form-control d-inline-block text-center rounded-0 p-0 mx-2"
+              value="2"
+            />
+            of 200
+          </p>
+        </div>
+      </main>
+      <main
+        class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 mb-5"
+      >
+        <div class="col">
+          <figure class="mt-4">
+            <div class="card_img text-center w-100 h-100">
+              <img src="img/img-01.jpg" alt="clocks" class="w-100 h-100" />
+              <h4 class="fs-2">Clocks</h4>
+            </div>
+            <figcaption
+              class="d-flex justify-content-between align-items-center"
+            >
+              <p class="text-black text-opacity-25">18 Oct 2020</p>
+              <p class="text-black text-opacity-50">9,906 views</p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col">
+          <figure class="mt-4">
+            <div class="card_img text-center w-100 h-100">
+              <img src="img/img-02.jpg" alt="clocks" class="w-100 h-100" />
+              <h4 class="fs-2">Plants</h4>
+            </div>
+            <figcaption
+              class="d-flex justify-content-between align-items-center"
+            >
+              <p class="text-black text-opacity-25">18 Oct 2020</p>
+              <p class="text-black text-opacity-50">9,906 views</p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col">
+          <figure class="mt-4">
+            <div class="card_img text-center w-100 h-100">
+              <img src="img/img-03.jpg" alt="clocks" class="w-100 h-100" />
+              <h4 class="fs-2">Morning</h4>
+            </div>
+            <figcaption
+              class="d-flex justify-content-between align-items-center"
+            >
+              <p class="text-black text-opacity-25">18 Oct 2020</p>
+              <p class="text-black text-opacity-50">9,906 views</p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col">
+          <figure class="mt-4">
+            <div class="card_img text-center w-100 h-100">
+              <img src="img/img-04.jpg" alt="clocks" class="w-100 h-100" />
+              <h4 class="fs-2">Pinky</h4>
+            </div>
+            <figcaption
+              class="d-flex justify-content-between align-items-center"
+            >
+              <p class="text-black text-opacity-25">18 Oct 2020</p>
+              <p class="text-black text-opacity-50">9,906 views</p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col">
+          <figure class="mt-4">
+            <div class="card_img text-center w-100 h-100">
+              <img src="img/img-05.jpg" alt="clocks" class="w-100 h-100" />
+              <h4 class="fs-2">hangers</h4>
+            </div>
+            <figcaption
+              class="d-flex justify-content-between align-items-center"
+            >
+              <p class="text-black text-opacity-25">18 Oct 2020</p>
+              <p class="text-black text-opacity-50">9,906 views</p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col">
+          <figure class="mt-4">
+            <div class="card_img text-center w-100 h-100">
+              <img src="img/img-06.jpg" alt="clocks" class="w-100 h-100" />
+              <h4 class="fs-2">perfume</h4>
+            </div>
+            <figcaption
+              class="d-flex justify-content-between align-items-center"
+            >
+              <p class="text-black text-opacity-25">18 Oct 2020</p>
+              <p class="text-black text-opacity-50">9,906 views</p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col">
+          <figure class="mt-4">
+            <div class="card_img text-center w-100 h-100">
+              <img src="img/img-07.jpg" alt="clocks" class="w-100 h-100" />
+              <h4 class="fs-2">New York</h4>
+            </div>
+            <figcaption
+              class="d-flex justify-content-between align-items-center"
+            >
+              <p class="text-black text-opacity-25">18 Oct 2020</p>
+              <p class="text-black text-opacity-50">9,906 views</p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col">
+          <figure class="mt-4">
+            <div class="card_img text-center w-100 h-100">
+              <img src="img/img-08.jpg" alt="clocks" class="w-100 h-100" />
+              <h4 class="fs-2">Abstract</h4>
+            </div>
+            <figcaption
+              class="d-flex justify-content-between align-items-center"
+            >
+              <p class="text-black text-opacity-25">18 Oct 2020</p>
+              <p class="text-black text-opacity-50">9,906 views</p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col">
+          <figure class="mt-4">
+            <div class="card_img text-center w-100 h-100">
+              <img src="img/img-09.jpg" alt="clocks" class="w-100 h-100" />
+              <h4 class="fs-2">Flowers</h4>
+            </div>
+            <figcaption
+              class="d-flex justify-content-between align-items-center"
+            >
+              <p class="text-black text-opacity-25">18 Oct 2020</p>
+              <p class="text-black text-opacity-50">9,906 views</p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col">
+          <figure class="mt-4">
+            <div class="card_img text-center w-100 h-100">
+              <img src="img/img-10.jpg" alt="clocks" class="w-100 h-100" />
+              <h4 class="fs-2">Rosy</h4>
+            </div>
+            <figcaption
+              class="d-flex justify-content-between align-items-center"
+            >
+              <p class="text-black text-opacity-25">18 Oct 2020</p>
+              <p class="text-black text-opacity-50">9,906 views</p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col">
+          <figure class="mt-4">
+            <div class="card_img text-center w-100 h-100">
+              <img src="img/img-11.jpg" alt="clocks" class="w-100 h-100" />
+              <h4 class="fs-2">Rockie</h4>
+            </div>
+            <figcaption
+              class="d-flex justify-content-between align-items-center"
+            >
+              <p class="text-black text-opacity-25">18 Oct 2020</p>
+              <p class="text-black text-opacity-50">9,906 views</p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col">
+          <figure class="mt-4">
+            <div class="card_img text-center w-100 h-100">
+              <img src="img/img-12.jpg" alt="clocks" class="w-100 h-100" />
+              <h4 class="fs-2">Purple</h4>
+            </div>
+            <figcaption
+              class="d-flex justify-content-between align-items-center"
+            >
+              <p class="text-black text-opacity-25">18 Oct 2020</p>
+              <p class="text-black text-opacity-50">9,906 views</p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col">
+          <figure class="mt-4">
+            <div class="card_img text-center w-100 h-100">
+              <img src="img/img-13.jpg" alt="clocks" class="w-100 h-100" />
+              <h4 class="fs-2">Sea</h4>
+            </div>
+            <figcaption
+              class="d-flex justify-content-between align-items-center"
+            >
+              <p class="text-black text-opacity-25">18 Oct 2020</p>
+              <p class="text-black text-opacity-50">9,906 views</p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col">
+          <figure class="mt-4">
+            <div class="card_img text-center w-100 h-100">
+              <img src="img/img-14.jpg" alt="clocks" class="w-100 h-100" />
+              <h4 class="fs-2">Turtle</h4>
+            </div>
+            <figcaption
+              class="d-flex justify-content-between align-items-center"
+            >
+              <p class="text-black text-opacity-25">18 Oct 2020</p>
+              <p class="text-black text-opacity-50">9,906 views</p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col">
+          <figure class="mt-4">
+            <div class="card_img text-center w-100 h-100">
+              <img src="img/img-15.jpg" alt="clocks" class="w-100 h-100" />
+              <h4 class="fs-2">Peace</h4>
+            </div>
+            <figcaption
+              class="d-flex justify-content-between align-items-center"
+            >
+              <p class="text-black text-opacity-25">18 Oct 2020</p>
+              <p class="text-black text-opacity-50">9,906 views</p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col">
+          <figure class="mt-4">
+            <div class="card_img text-center w-100 h-100">
+              <img src="img/img-16.jpg" alt="clocks" class="w-100 h-100" />
+              <h4 class="fs-2">Cairo</h4>
+            </div>
+            <figcaption
+              class="d-flex justify-content-between align-items-center"
+            >
+              <p class="text-black text-opacity-25">18 Oct 2020</p>
+              <p class="text-black text-opacity-50">9,906 views</p>
+            </figcaption>
+          </figure>
+        </div>
+      </main>
+      <!--start the buttons' section-->
+      <main class="row mb-5">
+        <div class="col-md-2 d-flex justify-content-center mb-5">
+          <button
+            type="button"
+            class="btn btn-primary btn-lg pre_button border-0"
+          >
+            Previous
+          </button>
+        </div>
+        <div class="col-md-3 offset-md-2 mb-5">
+          <div
+            class="btn-group me-2 justify-content-between d-flex"
+            role="group"
+            aria-label="First group"
+          >
+            <button
+              type="button"
+              class="btn rounded btn-primary mx-3 center_button border-0 p-3"
+            >
+              1
+            </button>
+            <button
+              type="button"
+              class="btn rounded btn-primary mx-3 center_button border-0 p-3 bg-light text-black fw-light"
+            >
+              2
+            </button>
+            <button
+              type="button"
+              class="btn rounded btn-primary mx-3 center_button border-0 p-3 bg-light text-black fw-light"
+            >
+              3
+            </button>
+            <button
+              type="button"
+              class="btn rounded btn-primary mx-3 center_button border-0 p-3 bg-light text-black fw-light"
+            >
+              4
+            </button>
+          </div>
+        </div>
+        <div class="col-md-2 offset-md-3 d-flex justify-content-center mb-5">
+          <button
+            type="button"
+            class="btn btn-primary btn-lg nxt_button border-0"
+          >
+            Next Page
+          </button>
+        </div>
+      </main>
+      <!--end the buttons' section-->
+    </section>
+    <!--end the body section-->
+    <!--start the footer section-->
+    <footer class="container-fluid foot_holder">
+      <section class="container">
+        <main class="row">
+          <div class="col-lg-4 offset-lg-1 mt-5 footer_left_sec">
+            <h4 class="mb-4">About Catalog-Z</h4>
+            <p class="fw-lighter mb-5 pb-5">
+              Catalog-Z is free
+              <a class="text-decoration-none" href="#"> Bootstrap 5</a> Alpha 2
+              HTML Template for video and photo websites. You can freely use
+              this TemplateMo layout for a front-end integration with any kind
+              of CMS website.
+            </p>
+            <p class="mt-5 pt-1">
+              Copyright 2020 Catalog-Z Company. All rights reserved.
+            </p>
+          </div>
+          <div class="col-lg-2 mt-5 footer_center_dec">
+            <h4 class="text-capitalize">our link</h4>
+            <ul class="nav flex-column mt-3">
+              <li class="nav-item mb-2">
+                <a
+                  class="nav-link active text-black fw-light"
+                  aria-current="page"
+                  href="#"
+                  >Advertise</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a class="nav-link text-black fw-light" href="#">Support</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a class="nav-link text-black fw-light" href="#">Our Company</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a class="nav-link text-black fw-light">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-4 mt-5 d-flex flex-column justify-content-start align-items-center">
+            <div class="icons">
+              
+              
+              
+              
+              <div class="btn-toolbar justify-content-between" role="toolbar" aria-label="Toolbar with button groups">
+                <div class="btn-group footer_left_buttons" role="group" aria-label="First group">
+                  <button type="button" class="btn btn-outline-secondary rounded-0 me-3 bg-white border-0 fs-5"><i class="fa-brands fa-facebook"></i></button>
+                  <button type="button" class="btn btn-outline-secondary me-3 bg-white border-0 fs-5"><i class="fa-brands fa-twitter"></i></button>
+                  <button type="button" class="btn btn-outline-secondary me-3 bg-white border-0 fs-5"><i class="fa-brands fa-twitter"></i></button>
+                  <button type="button" class="btn btn-outline-secondary me-3 bg-white border-0 fs-5"><i class="fa-brands fa-instagram"></i></button>
+                  <button type="button" class="btn btn-outline-secondary rounded-0 bg-white border-0 fs-5"><i class="fa-brands fa-pinterest"></i></button>
+                </div>
+            </div>
+            <div class="footer_center_dec">
+              <ul class="nav flex-column mt-3">
+                <li class="nav-item mb-2">
+                  <a
+                    class="nav-link active text-black fw-light"
+                    aria-current="page"
+                    href="#"
+                    >Advertise</a
+                  >
+                </li>
+                <li class="nav-item mb-2">
+                  <a class="nav-link text-black fw-light" href="#">Support</a>
+                </li>
+
+              </ul>
+            </div>
+            <div class=" mt-5">
+              <p class="fw-light mt-5 pt-5">Designed by TemplateMo</p>
+            </div>
+          </div>
+
+        </main>
+      </section>
+    </footer>
+    <!--end the footer section-->
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>

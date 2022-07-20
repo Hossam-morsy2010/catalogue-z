@@ -1,0 +1,138 @@
+/*start nav bars*/
+/*start the root color*/
+:root{--main_color:#009999;}
+/*end the root color*/
+.main_nav li a:hover {
+  color: var(--main_color) !important;
+}
+.first_nav {
+  border-bottom: 5px solid #33CCFF;
+}
+.sec_nav:hover {
+  border-bottom: 5px solid #FF6666;
+}
+.third_nav:hover {
+  border-bottom: 5px solid #33CC66;
+} 
+.fourth_nav:hover {
+  border-bottom: 5px solid #CC66CC;
+}
+.brand {
+  color:#3399CC !important;
+}
+/*end nav bars*/
+/*start the search section*/
+.search_sec {
+  background-image: url(../img/hero.jpg);
+  background-size: cover;
+  background-position: 50%;
+  min-height: 35vh;
+}
+.forma::placeholder {
+  color: #009999 !important;
+}
+.forma_button {
+  background-color: #009999 !important;
+  transition: all 0.5s ease;
+}
+.forma_button:hover {
+  background-color: #198754 !important;
+}
+/*end the search section*/
+/*start the body section*/
+.meter {
+  color:var(--main_color);
+}
+.meter input {
+  color: var(--main_color);
+  width: 30px;
+}
+.latest {
+  color: var(--main_color) !important;
+}
+/*start img card*/
+.card_img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.card_img h4 {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  content: '';
+  width: 80%;
+  height: 80%;
+  color: rgba(255, 255, 255, 0) !important;
+  z-index: 30;
+  border: 1px solid white;
+  line-height: 5;
+  transform: scale3d(80.5,93.5,0.9);
+  transition: all 0.5s ease;
+}
+.card_img h4:hover {
+  color: rgba(255, 255, 255, 1) !important;
+  background-color: rgba(91, 94, 103, 0.3);
+  transform: scale3d(1,1,1);
+}
+.card_img::after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.1) !important;
+  z-index: 20;
+}
+.card_img:hover::after {
+  z-index: 3;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+/*end img card*/
+/*start the button's section*/
+.pre_button {
+  background-color: var(--main_color);
+  padding:15px 55px;
+}
+.pre_button:hover {
+  background-color: var(--main_color);
+}
+.nxt_button {
+  background-color: var(--main_color);
+  padding:15px 55px; 
+}
+.nxt_button:hover {
+  background-color: var(--main_color);
+}
+.center_button {
+  background-color: var(--main_color);
+  transition: all 0.5s ease;
+}
+.center_button:hover {
+color: #fff !important;
+background-color: var(--main_color) !important;
+}
+/*end the button's section*/
+/*end the body section*/
+/*start the footer's section*/
+.foot_holder {
+  background-color: #EEEEEE;
+  min-height: 55vh;
+}
+.footer_left_sec h4 {
+color: var(--main_color) !important;
+}
+.footer_center_dec h4 {
+  color: var(--main_color) !important;
+}
+.footer_center_dec ul li a:hover {
+  color: var(--main_color) !important;
+}
+.footer_left_buttons button:hover {
+color: white !important;
+background-color: var(--main_color) !important;
+}
+/*end the footer's section*/
